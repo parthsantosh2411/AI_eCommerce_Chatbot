@@ -1,0 +1,60 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(to bottom, #0d0d1c, rgba(13, 13, 28, 0)); /* Optional: keep the gradient background */
+  padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: white; /* Change text color to white */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300; /* Thin style */
+  font-family: 'Raleway', sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #f79533; /* Change text color on hover */
+  text-decoration: none;
+}
+
+.signup-btn {
+  color: white; /* Change text color to white */
+  background: transparent; /* Make background transparent */
+  padding: 8px 16px;
+  border: 2px solid transparent; /* No border */
+  font-family: 'Raleway', sans-serif;  font-weight: 300; /* Thin style */
+  text-decoration: none;
+  margin-left: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.signup-btn:hover {
+  color: #f79533; /* Change text color on hover */
+  text-decoration: none;
+}

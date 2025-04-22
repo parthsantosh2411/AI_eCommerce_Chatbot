@@ -1,0 +1,130 @@
+/* Fullscreen Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+}
+
+/* Modal Box with Theme Matching */
+.modal-content {
+  background: linear-gradient(135deg, #2c2c3d, #1e1e2f); /* Matching home theme */
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  position: relative;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fbc531; /* Gold color */
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #e1a821; /* Darker gold */
+}
+
+/* Heading */
+.modal-content h2 {
+  color: #fbc531;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input Fields */
+.modal-content input {
+  margin: 10px 0;
+  padding: 12px;
+  border: 2px solid #fbc531; /* Gold border */
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-content input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Input Focus */
+.modal-content input:focus {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 10px rgba(251, 197, 49, 0.8);
+}
+
+/* Sign Up Button */
+.modal-content button {
+  background: linear-gradient(90deg, #fbc531, #e1a821); /* Gold gradient */
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.modal-content button:hover {
+  background: linear-gradient(90deg, #e1a821, #fbc531);
+  box-shadow: 0 0 10px rgba(251, 197, 49, 0.8);
+}
+
+/* Login Link */
+.login-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.login-text a {
+  color: #fbc531;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ai-commerce-chatbot",
+  "private_key_id": "20f8dfde375742ca41c3bdab462d96a840280119",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDU210KA0gBj56L\npakoSmF1whXW4lFkvMJTh0p4E0nQY+6UarOJOwIWdff+Wpej7s4z/wpS12TAw6Jm\n7FW/2muWk/ew/ZS0A5r8ZybGOeYY1iDpR9fDn5i7eTfmp5xd4S1EtexAhnrlXWT2\n/VCtL62HIM/gQSXEoYePuC/AH9VrIdRJ/doFcpEp1uj8DfFCKex/ONxuVtTXrc4G\norSSHPB5AzYw+5wDo6sOwyiX9gK2kG8I3uSFE09D3ZoUBlvkN8ooMbEZ7WlVHR7Q\ntdE4YiK3ii2YBHo7IE2nx0sOCaG8Bh/77BkWeirdUN7Wmv0FxQccG4G796Ej9oyN\nNZ3Cc6gHAgMBAAECggEACNFR+86lqFA6/yZpBYJ7vqOHa6JSQNwR028bjYcvBoFn\n8Wg+m73WQ6MLbO+PzJbvuoV4onSRW0EjArK3Mqj3sclpoush3vsvQR0LCJq3owZr\n0NN3g5u+61GwNLMBtUSOEtnwOYXYpJSq+y2vPMgTSb/AOTnH42ryDZOnD6HB9xun\npR+1tf90frvRFsLXuP6x4ajxlhsst8qFwEOzcajLy0akHsnBdEk/Zew5xd6q4BPV\ngpH8I/OV2o/ci7MPx7xQ4JUP2Ixt8UYt602yzUttyWK46KzOMSwX/+T7ggMCjYJg\nPy25nQMvu3qDIuEeEe/S+zm+J4I3+PfB2CQa8bitUQKBgQDqssZHJmGsbOfQ4kG0\na/mhEVR+AgEyY9yseVcBw9rEGCWUagd/oxm2SaxAdHOV5ulA8If9HHrnuLUQoLFt\nx2sMbYxozWqd07EvfWg2s6P/o/HrgmH056IS8OZQQ/L6oGs0pWL8TReoAs4/tShX\nX8Ddia2mbhu7/BTek9rDkIuPpQKBgQDoLRoYkSxcM8dm+0YQF+d6sJ3tpv955fw8\nTKPhksnHacsPduYBsr1duZQ+KyMjURA+EO1k89JBynJRVYea4+ZEx4Ryygs0KKsQ\nECNu8cnlLyooKGp9o1LI/vQFTHBeQ2TRKoNWkn4fJxNWby+Lm4cwAsKiQMTqSFLR\n1i1c3K3JOwKBgF4Ituy28hd1owPMQ2sYf/IK0YGTKAuae0YXb8bjQ/mhex0Vxl9b\nZ+fjaMKCZfU/iWFdff7ptEy3csRwveYwKjHWipVLCFaoBKv0YRbZrvG0LC+iE8Fe\nNU/FeWHbd7T3JTz4rspL0Rid1ykrWjh3wvyANzUhlLci7vGm59XHSkOJAoGBALpU\nmADnYWaN15X6SvxXctqwK86ym43E2W27RDqgh3eWm/TJQ0ZRoFA7w5ExJX4ObK6i\n/yJp23AZfS1xKudPx1mjldRZ+iveB4tYqFc9jP51n6ui4/P4w1Oz6TrnYbcE90A2\nkjlEUBvITGitysaMBy6syG9W87HiYTUuYjGImaBJAoGABGKBERC7knnIEiAYg1oo\nLpdLO9s85sRy7ulvm8VpFh5eM6dBZGVakJKYxweUoc0zZ0t6lSCasziRflUq6aRY\n3JYp6+9EFB9XC8ao+WU56+u1WR1cT01k2NyYEVOfSa4AxR/Zo1bDBE4kgobTvvwb\n3maLZO3a/ApjRimHQnm9ioI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "parth-tripathi@ai-commerce-chatbot.iam.gserviceaccount.com",
+  "client_id": "111040620218267230240",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/parth-tripathi%40ai-commerce-chatbot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

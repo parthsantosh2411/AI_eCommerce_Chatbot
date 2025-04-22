@@ -1,0 +1,15 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d1c; /* dark background to match the theme */
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

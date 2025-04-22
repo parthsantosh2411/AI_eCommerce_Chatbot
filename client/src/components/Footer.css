@@ -1,0 +1,79 @@
+/* Footer Container */
+.footer {
+  width: 100%;
+  padding: 20px 0; /* Added padding for spacing */
+  background: transparent; /* No background box */
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+  position: relative; /* Ensure footer is not fixed at the bottom */
+  bottom: 0;
+  margin-top: auto; /* Ensure footer stays at the bottom */
+}
+
+/* Footer Logo */
+.footer-logo {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #ffdd57;
+}
+
+/* Footer Text */
+.footer-text {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.social-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #ffdd57;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  font-size: 10px;
+  opacity: 0.6;
+  font-weight: 300;
+}
+
+/* Ensures footer stays at the bottom of the page even if content is less */
+body, html {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure footer is not overlapped on smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0; /* Adjust padding for smaller screens */
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icon {
+    font-size: 14px; /* Slightly larger social icon text on smaller screens */
+  }
+}
